@@ -26,7 +26,7 @@
 				"tgsearch_media_url":"http://127.0.0.1:10199",
 				"channellist":"alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
 				"proxy":"noproxy",
-				"douban":"./lib/douban.json",
+				"douban":"./pg/douban.json",
 				"danmu":true
 			},
 			"style": {
@@ -55,7 +55,7 @@
 			"jar": "./pg.jar",
 			"searchable": 0,
 			"changeable": 0,
-			"ext":"./lib/tokenm.json",
+			"ext":"./pg/tokenm.json",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
