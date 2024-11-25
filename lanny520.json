@@ -13,7 +13,7 @@
         },
 		{
 		    "key":"TGDouban",
-		    "name":"TG豆瓣|小白推荐",
+		    "name":"TG豆瓣｜小白推荐",
 		    "type":3,
 		    "api":"csp_TGDouban",
 		    "jar": "./pg.jar",
@@ -49,7 +49,7 @@
         },
 		{
 			"key": "网盘配置",
-			"name": "TG搜索|配置中心",
+			"name": "TG搜索｜配置中心",
 			"type": 3,
 			"api": "csp_Config",
 			"jar": "./pg.jar",
@@ -171,6 +171,32 @@
             }
         },
         {
+            "key":"六趣网盘",
+            "name":"六趣资源┃4k弹幕",
+            "type":3,
+            "api":"csp_Wobg",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "changeable":1,
+            "ext":
+               {"token":"http://127.0.0.1:9978/file/TVBox/token.txt",
+               "cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt",
+               "uc_cookie":"http://127.0.0.1:9978/file/TVBox/uc.txt",
+               "site":"https://wp.0v.fit",
+               "danmu":true
+               }
+        },
+        {
+            "key": "雷鲸",
+            "name": "雷鲸小站┃天翼4K‍",
+            "type": 3,
+            "api": "csp_Wexleijing",
+            "jar": "./wex.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "哔哩弹幕",
             "name": "哔哩哔哩｜4k弹幕",
             "type": 3,
@@ -231,6 +257,15 @@
 				"ratio": 1.77
 			}
 		},
+	    {
+            "key": "Wextyso",
+            "name": "天翼云盘┃搜索",
+            "type": 3,
+            "api": "csp_Wextyso",
+            "jar": "./wex.jar",
+            "searchable": 1,
+            "changeable": 0
+        },
         {
             "key": "夸克影搜弹幕",
             "name": "影搜｜弹幕",
@@ -474,7 +509,8 @@
         {
             "name": "4k",
             "type": 1,
-            "url": "http://110.40.61.139:4655/zhuimi666.php?url=",
+           //"url": "http://110.40.61.139:4655/zhuimi666.php?url=",
+             "url": "https://jk.123zy.cool/jx/jx.php?url=",
             "ext": {
                 "flag": [
                     "qq",
