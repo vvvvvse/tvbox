@@ -61,6 +61,16 @@
 				"ratio": 1.5
 			}
 		},
+      {
+          "key": "Wexokconfig",
+          "name": "天翼专用｜配置中心",
+          "type": 3,
+          "api": "csp_Wexconfig",
+          "jar": "./wex.jar",
+          "searchable": 0,
+          "changeable": 0,
+          "indexs": 0
+        },
         {
             "key": "腾讯视频",
             "name": "腾讯视频｜4k解析",
