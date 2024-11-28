@@ -71,20 +71,6 @@
           "changeable": 0,
           "indexs": 0
         },
-        {
-            "key": "腾讯视频",
-            "name": "腾讯视频｜4k解析",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/腾讯视频.js"
-        },
-        {
-            "key": "芒果视频",
-            "name": "芒果视频｜4k解析",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/芒果视频.js"
-        },
 	    {
             "key": "玩偶弹幕",
             "name": "玩偶哥哥｜4K弹幕",
@@ -519,8 +505,7 @@
         {
             "name": "4k",
             "type": 1,
-           //"url": "http://110.40.61.139:4655/zhuimi666.php?url=",
-             "url": "https://jk.123zy.cool/jx/jx.php?url=",
+             "url": "",
             "ext": {
                 "flag": [
                     "qq",
