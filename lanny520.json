@@ -1,8 +1,8 @@
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://api.likepoems.com/img/bing",
-  "logo": "./JS/logo.jpg",
-    "homeLogo": "./JS/logo.jpg",
+      "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
+  "logo": "https://gitee.com/lanny520/tv/raw/master/JS/logo.jpg",
+  "homeLogo": "https://gitee.com/lanny520/tv/raw/master/JS/logo.jpg",
     "sites": [
         {
             "key": "豆瓣",
