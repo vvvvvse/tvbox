@@ -760,26 +760,55 @@
     }
   ],
   "lives": [
-    {
-      "name": "直播1",
-      "type": 0,
-      "url": "./live.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "直播2",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1
-    },
-    {
-      "name": "直播3",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 1
-    }
-  ],
+        {
+            "name": "直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
+            "playerType": 2
+        },
+        {
+            "name": "范明明",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 2
+        },
+        {
+            "name": "肥羊国内直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35455/tv.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊TPTV",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35455/tptv.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊虎牙一起看",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35455/huyayqk.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊B站直播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35455/bililive.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊斗鱼一起看",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35455/douyuyqk.m3u",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "肥羊YY轮播",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35455/yylunbo.m3u",
+            "ua": "okhttp/3.15"
+        }
+    ],
   "flags": [
     "youku",
     "优酷",
