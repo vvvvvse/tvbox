@@ -16,7 +16,7 @@
       "name": "TG豆瓣|小白推荐",
       "type": 3,
       "api": "csp_TGDouban",
-      "jar": "https://gitee.com/lanny520/tv/raw/master/pg.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/pg.txt",
       "timeout": 120,
       "ext": {
         "token": "https://gitee.com/lanny520/tv/raw/master/pg/tokenm.json",
