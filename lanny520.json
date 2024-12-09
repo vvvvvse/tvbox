@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar",
+  "spider": "https://gitee.com/lanny520/tv/raw/master/spider.txt",
   "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
   "logo": "https://gitee.com/lanny520/tv/raw/master/JS/logo.jpg",
   "homeLogo": "https://gitee.com/lanny520/tv/raw/master/JS/logo.jpg",
@@ -16,17 +16,17 @@
       "name": "TG豆瓣|小白推荐",
       "type": 3,
       "api": "csp_TGDouban",
-      "jar": "./pg.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/pg.jar",
       "timeout": 120,
       "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
+        "token": "https://gitee.com/lanny520/tv/raw/master/pg/tokenm.json",
+        "json": "https://gitee.com/lanny520/tv/raw/master/pg/tgsearch.json",
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
+        "channellist": "ucpanpan,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
         "proxy": "noproxy",
-        "douban": "./pg/douban.json",
+        "douban": "https://gitee.com/lanny520/tv/raw/master/pg/douban.json",
         "danmu": true
       },
       "style": {
@@ -52,10 +52,10 @@
       "name": "TG搜索｜配置中心",
       "type": 3,
       "api": "csp_Config",
-      "jar": "./pg.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/pg.txt",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./pg/tokenm.json",
+      "ext": "https://gitee.com/lanny520/tv/raw/master/pg/tokenm.json",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -66,7 +66,7 @@
       "name": "天翼专用｜配置中心",
       "type": 3,
       "api": "csp_Wexconfig",
-      "jar": "./wex.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/wex.txt",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0
@@ -188,9 +188,18 @@
        "name": "雷鲸小站┃天翼4K‍",
        "type": 3,
        "api": "csp_Wexleijing",
-       "jar": "./wex.jar",
+       "jar": "https://gitee.com/lanny520/tv/raw/master/wex.txt",
        "searchable": 1,
        "changeable": 1
+    },
+    { 
+       "key":"盘他",
+       "name":"移动盘他┃4K纯净‍",
+       "type":3,
+       "api":"csp_WexYDpanta",
+       "jar": "./wex.jar",
+       "searchable":1,
+       "changeable":1
     },
     {
       "key": "哔哩弹幕",
@@ -292,15 +301,15 @@
       "name": "TG频道｜4k搜索",
       "type": 3,
       "api": "csp_TGYunPanLocal",
-      "jar": "./pg.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/pg.txt",
       "timeout": 120,
       "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
+        "token": "https://gitee.com/lanny520/tv/raw/master/pg/tokenm.json",
+        "json": "https://gitee.com/lanny520/tv/raw/master/pg/tgsearch.json",
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
+        "channellist": "ucpanpan,oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe",
         "proxy": "proxy",
         "danmu": true
       },
@@ -314,15 +323,15 @@
       "name": "TG群组｜4k搜索",
       "type": 3,
       "api": "csp_TGYunPan",
-      "jar": "./pg.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/pg.txt",
       "timeout": 120,
       "ext": {
-        "token": "./pg/tokenm.json",
-        "json": "./pg/tgsearch.json",
+        "token": "https://gitee.com/lanny520/tv/raw/master/pg/tokenm.json",
+        "json": "https://gitee.com/lanny520/tv/raw/master/pg/tgsearch.json",
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
+        "channellist": "ucpanpan,alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000",
         "proxy": "noproxy",
         "danmu": true
       },
@@ -336,7 +345,7 @@
       "name": "天翼云盘｜4k搜索",
       "type": 3,
       "api": "csp_Wextyso",
-      "jar": "./wex.jar",
+      "jar": "https://gitee.com/lanny520/tv/raw/master/wex.jar",
       "searchable": 1,
       "changeable": 0
     },
