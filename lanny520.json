@@ -197,7 +197,7 @@
        "name":"移动盘他┃4K纯净‍",
        "type":3,
        "api":"csp_WexYDpanta",
-       "jar": "./wex.jar",
+       "jar": "https://gitee.com/lanny520/tv/raw/master/wex.txt",
        "searchable":1,
        "changeable":1
     },
