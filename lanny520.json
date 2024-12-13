@@ -71,6 +71,7 @@
       "changeable": 0,
       "indexs": 0
     },
+        
     {
       "key": "玩偶弹幕",
       "name": "玩偶哥哥｜4K弹幕",
@@ -251,9 +252,37 @@
       },
       "timeout": 10
     },
+{
+            "key": "腾讯视频",
+            "name": "腾讯视频｜蓝光弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯弹幕.js"
+        },
+        {
+            "key": "芒果视频",
+            "name": "芒果视频｜蓝光弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/芒果弹幕.js"
+        },
+        {
+            "key": "爱奇艺视频",
+            "name": "爱奇艺视频｜蓝光弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱奇艺弹幕.js"
+        },
+        {
+            "key": "优酷视频",
+            "name": "优酷视频｜蓝光弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷弹幕.js"
+        },
     {
       "key": "厂长弹幕",
-      "name": "厂长影视｜1k弹幕",
+      "name": "厂长影视｜蓝光弹幕",
       "type": 3,
       "api": "csp_Czzy",
       "searchable": 1,
@@ -265,7 +294,7 @@
     },
     {
       "key": "天天弹幕",
-      "name": "天天影视｜1k弹幕",
+      "name": "天天影视｜蓝光弹幕",
       "type": 3,
       "api": "csp_TianTian",
       "searchable": 1,
@@ -277,7 +306,7 @@
     },
     {
       "key": "热播弹幕",
-      "name": "热播影视｜1k弹幕",
+      "name": "热播影视｜蓝光弹幕",
       "type": 3,
       "api": "csp_ReBo",
       "searchable": 1,
@@ -289,7 +318,7 @@
     },
     {
       "key": "文才弹幕",
-      "name": "文才影视｜1k弹幕",
+      "name": "文才影视｜蓝光弹幕",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
@@ -301,7 +330,7 @@
     },
     {
       "key": "小苹果弹幕",
-      "name": "苹果影视｜1k弹幕",
+      "name": "苹果影视｜蓝光弹幕",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -322,7 +351,7 @@
     },
     {
       "key": "比特影视",
-      "name": "比特影视｜1k纯净",
+      "name": "比特影视｜蓝光纯净",
       "type": 3,
       "api": "csp_Bttwo",
       "searchable": 1,
@@ -622,22 +651,16 @@
     }
   ],
   "parses": [
-    {
-      "name": "4k",
-      "type": 1,
-      "url": "",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "芒果",
-          "mgtv"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
+       {
+            "name": "蓝光解析1",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name":"蓝光解析2",
+            "type":0,
+            "url":"https://dm.xmflv.com:4433/?url="
         }
-      }
-    }
   ],
   "rules": [
     {
