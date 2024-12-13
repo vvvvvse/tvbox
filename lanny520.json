@@ -651,10 +651,63 @@
     }
   ],
   "parses": [
-            {
-            "name": "4k解析",
+     {
+            "name": "优选1",
             "type": 1,
-            "url": "http://1.94.221.189:88/algorithm.php?url="
+            "url": "http://1.94.221.189:88/algorithm.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯视频",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+       {
+            "name": "优选2",
+            "type": 1,
+            "url": "http://122.228.85.203:7979/api/?key=ac7be4db3ca9dfbb79ec93a390fa10bb&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯视频",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
         },
        {
             "name": "蓝光解析1",
