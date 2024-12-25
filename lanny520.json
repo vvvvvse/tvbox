@@ -2,7 +2,6 @@
   "spider": "./spider.txt",
   "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
   "logo": "./logo.jpg",
-  "homeLogo": "./logo.jpg",
   "sites": [
     {
       "key": "豆瓣",
@@ -735,6 +734,12 @@
   ],
   "lives": [
         {
+            "name": "范明明",
+            "type": 0,
+            "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+            "playerType": 2
+        },
+        {
             "name": "直播",
             "type": 0,
             "url": "https://gitee.com/wu-xuewei520/private/raw/master/JS/长苏影视.txt",
@@ -744,12 +749,6 @@
             "name": "直播1",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
-            "playerType": 2
-        },
-        {
-            "name": "范明明",
-            "type": 0,
-            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
             "playerType": 2
         }
     ],
