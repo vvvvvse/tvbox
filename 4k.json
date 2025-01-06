@@ -91,14 +91,14 @@
       "name": "轻风细雨｜4k弹幕",
       "type": 3,
       "api": "./JS/drpy2.min.js",
-      "ext": "./JS/腾讯弹幕"
+      "ext": "./JS/腾讯弹幕.js"
     },
     {
       "key": "鸟语花香",
       "name": "鸟语花香｜4k弹幕",
       "type": 3,
       "api": "./JS/drpy2.min.js",
-      "ext": "./JS/芒果弹幕"
+      "ext": "./JS/芒果弹幕.js"
     },
     {
       "key": "玩偶弹幕",
