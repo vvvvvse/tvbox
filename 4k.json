@@ -5,14 +5,14 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "小白影视｜豆瓣推荐",
+      "name": "此接口不再维护",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "TGDouban",
-      "name": "TG豆瓣|小白推荐",
+      "name": "新接口加qq群292177535获取",
       "type": 3,
       "api": "csp_TGDouban",
       "jar": "./pg.txt",
