@@ -1,5 +1,5 @@
         {
-          "spider": "./spider.jar",
+          "spider": "./spider.txt",
           "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
            "logo": "./JS/logo.jpg",
            "homeLogo": "./JS/logo.jpg",
@@ -16,7 +16,7 @@
 		    "name":"TG豆瓣｜小白推荐",
 		    "type":3,
 		    "api":"csp_TGDouban",
-		    "jar": "./pg.jar",
+		    "jar": "./pg.txt",
 		    "timeout":120, 
 			"ext":{
 				"token":"./pg/tokenm.json",
@@ -52,7 +52,7 @@
 			"name": "TG搜索｜配置中心",
 			"type": 3,
 			"api": "csp_Config",
-			"jar": "./pg.jar",
+			"jar": "./pg.txt",
 			"searchable": 0,
 			"changeable": 0,
 			"ext":"./pg/tokenm.json",
@@ -66,7 +66,7 @@
             "name": "天翼&移动｜配置中心",
             "type": 3,
             "api": "csp_Wexconfig",
-            "jar": "./wex.jar",
+            "jar": "./wex.txt",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0
@@ -292,7 +292,7 @@
             "name":"移动盘他┃4K纯净‍",
             "type":3,
             "api":"csp_WexYDpanta",
-            "jar": "./wex.jar",
+            "jar": "./wex.txt",
             "searchable":1,
             "changeable":1
         },
@@ -318,7 +318,7 @@
 	        "name":"TG频道┃4k搜索",
 	        "type":3,
 	        "api":"csp_TGYunPanLocal",
-	        "jar": "./pg.jar",
+	        "jar": "./pg.txt",
 	        "timeout":120, 
 			"ext":{
 				"token":"./pg/tokenm.json",
@@ -340,7 +340,7 @@
 	    	"name":"TG群组┃4k搜索",
 	    	"type":3,
 	    	"api":"csp_TGYunPan",    
-	    	"jar": "./pg.jar",
+	    	"jar": "./pg.txt",
 	    	"timeout":120, 
 			"ext":{
 				"token":"./pg/tokenm.json",
@@ -362,7 +362,7 @@
             "name": "天翼云盘┃4k搜索",
             "type": 3,
             "api": "csp_Wextyso",
-            "jar": "./wex.jar",
+            "jar": "./wex.txt",
             "searchable": 1,
             "changeable": 0
         },
@@ -823,7 +823,7 @@
 	    {
 				"name": "小白直播2",
 				"type": 0,
-		     	"jar": "./pg.jar",
+		        	"jar": "./pg.txt",
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB",
