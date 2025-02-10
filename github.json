@@ -6,7 +6,7 @@
            "sites": [
         {
             "key": "豆瓣",
-            "name": "小白影视｜豆瓣推荐",
+            "name": "小白影视｜qq群292177535",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -175,7 +175,7 @@
                  "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                  "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                  "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-               "site": "http://www.mucpan.cc",
+               "site": "https://milvdou.fun",
                "danmu": true
             }
         }, 
