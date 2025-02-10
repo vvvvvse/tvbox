@@ -632,21 +632,11 @@
         }
     ],
     "parses": [
-         {
-            "name": "优选解析1",
-            "type": 1,
-            "url": "http://niiuma.qi-simple.top/jiexi.php?user=qqwens&pwd=112233&url="         
-     },
      {      
-            "name":"优选解析2",
+            "name":"优选解析",
             "type":1,
             "url":"http://isp.wki8.com/jx.php?url="
-     },
-     {
-            "name": "蓝光解析",
-            "type": 0,
-            "url": "https://dm.xmflv.com:4433/?url="
-    } 
+     }
     ],
     "rules": [
         {
