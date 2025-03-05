@@ -11,7 +11,7 @@
 		    "name":"洪宇｜加载all",
 		    "type":3,
 		    "api":"csp_TGDouban",
-		    "jar": "https://cors.isteed.cc/https://raw.githubusercontent.com/vvvvvse/tvbox/refs/heads/master/pg/pg.txt",
+		    "jar": "https://cors.isteed.cc/https://raw.githubusercontent.com/vvvvvse/tvbox/refs/heads/master/pg.txt",
 		    "timeout":120, 
 			"ext":{
 				"token":"https://cors.isteed.cc/https://raw.githubusercontent.com/vvvvvse/tvbox/refs/heads/master/pg/tokenm.json",
