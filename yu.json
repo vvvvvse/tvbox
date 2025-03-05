@@ -112,7 +112,7 @@
       "name":"虎牙",
 
       "type": 0,
-      "url": "https://gitee.com/yu_shan_fei/zby/raw/master/tvbox/yu2/live/huya.m3u",
+      "url": "https://gitee.com/yu_shan_fei/zby/raw/master/tvbox/yu2/live/huya2.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
@@ -123,7 +123,7 @@
       "name":"斗鱼",
 
       "type": 0,
-      "url": "https://gitee.com/yu_shan_fei/zby/raw/master/tvbox/yu2/live/douyu.m3u",
+      "url": "https://gitee.com/yu_shan_fei/zby/raw/master/tvbox/yu2/live/douyu2.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
